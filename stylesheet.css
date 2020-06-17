@@ -38,8 +38,8 @@ header h1 {
 /*タブレットの時の見た目*/
 @media (max-width: 2224px) {
   .iconbox {
-    margin-left: 13px;
-    margin-right: 10px;
+    margin-left: 7px;
+    margin-right: 11px;
     width: 48%;
   }
 }
