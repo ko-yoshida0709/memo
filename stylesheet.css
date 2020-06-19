@@ -35,6 +35,19 @@ header h1 {
   margin-left: 30px;
   width: 50%;
 }
+
+/*ボックス全体　3個目*/
+.iconbox-yellow {
+  margin: 0 auto 2em; /* 余白 */
+  background: #fef9ed !important; /* 背景色 */
+  border-radius:4px; /* 角丸 */
+  max-width:650px; /* 横幅 */
+  padding: 0; /* 余白 */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .2); /* 影 */
+  float: left;
+  margin-left: 30px;
+  width: 50%;
+}
 /*タブレットの時の見た目*/
 @media (max-width: 2224px) {
   .iconbox {
@@ -59,6 +72,19 @@ header h1 {
 .box-titlebox-head-green {
   font-size: 18px; /* 文字サイズ */
   background: #2fcdb4 !important; /* 背景色 */
+  text-align: left; /* 文字配置 */
+  color: #fff; /* 文字色 */
+  font-weight: bold; /* 文字太さ */
+  letter-spacing: 0.05em; /* 文字間隔 */
+  border-radius:4px 4px 0 0; /* 角丸 */
+  line-height:1.5; /* 行間 */
+  padding:1em 2em; /* 余白 */
+}
+
+/*ボックスタイトル*/
+.box-titlebox-head-yellow {
+  font-size: 18px; /* 文字サイズ */
+  background: #fdc44f !important; /* 背景色 */
   text-align: left; /* 文字配置 */
   color: #fff; /* 文字色 */
   font-weight: bold; /* 文字太さ */
