@@ -34,6 +34,7 @@ header h1 {
   box-shadow: 0 1px 3px rgba(0, 0, 0, .2); /* 影 */
   float: left;
   margin-left: 30px;
+
   width: 50%;
   padding-bottom: 9px;
 }
@@ -51,6 +52,20 @@ header h1 {
   width: 50%;
   padding-bottom: 0;
 }
+
+/*ボックス全体　4個目*/
+.iconbox-pink {
+  margin: 0 auto 2em; /* 余白 */
+  background: #fdf1f1 !important; /* 背景色 */
+  border-radius:4px; /* 角丸 */
+  max-width:650px; /* 横幅 */
+  padding: 0; /* 余白 */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .2); /* 影 */
+  float: left;
+  margin-left: 30px;
+  width: 50%;
+  padding-bottom: 0;
+}
 /*タブレットの時の見た目*/
 @media (max-width: 2224px) {
   .iconbox {
@@ -58,6 +73,10 @@ header h1 {
     margin-right: 11px;
     width: 48%;
   }
+}
+
+@media (max-width: 2224px) {
+
 }
 /* ボックスタイトル 1個目*/
 .iconbox .box-title {
@@ -84,10 +103,23 @@ header h1 {
   padding:1em 2em; /* 余白 */
 }
 
-/*ボックスタイトル*/
+/*ボックスタイトル 3個目*/
 .box-titlebox-head-yellow {
   font-size: 18px; /* 文字サイズ */
   background: #fdc44f !important; /* 背景色 */
+  text-align: left; /* 文字配置 */
+  color: #fff; /* 文字色 */
+  font-weight: bold; /* 文字太さ */
+  letter-spacing: 0.05em; /* 文字間隔 */
+  border-radius:4px 4px 0 0; /* 角丸 */
+  line-height:1.5; /* 行間 */
+  padding:1em 2em; /* 余白 */
+}
+
+/*ボックスタイトル 4個目*/
+.box-titlebox-head-pink {
+  font-size: 18px; /* 文字サイズ */
+  background: #f7bcbc !important; /* 背景色 */
   text-align: left; /* 文字配置 */
   color: #fff; /* 文字色 */
   font-weight: bold; /* 文字太さ */
